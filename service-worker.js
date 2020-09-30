@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mediCenter-ReactJS/precache-manifest.29edaeef33913377410feab75d558ffa.js"
+  "/mediCenter-ReactJS/precache-manifest.86bbada06ef5c369c17002219a9dd2cc.js"
 );
 
 self.addEventListener('message', (event) => {

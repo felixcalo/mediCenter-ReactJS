@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "02a3dcc5cc1782bd48c3668218bb9719",
+    "revision": "a340583882eafb300de063cd167a663b",
     "url": "/mediCenter-ReactJS/index.html"
   },
   {
-    "revision": "0b4e7e23daa2299ef6ff",
-    "url": "/mediCenter-ReactJS/static/css/main.6105e34b.chunk.css"
+    "revision": "0993882beba43aaa914a",
+    "url": "/mediCenter-ReactJS/static/css/main.1d334cab.chunk.css"
   },
   {
     "revision": "29ea5189f9dde1649161",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mediCenter-ReactJS/static/js/2.0c2ab6f2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0b4e7e23daa2299ef6ff",
+    "revision": "0993882beba43aaa914a",
     "url": "/mediCenter-ReactJS/static/js/main.4121a559.chunk.js"
   },
   {

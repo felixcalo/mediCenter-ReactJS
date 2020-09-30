@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mediCenter-ReactJS/static/css/main.6105e34b.chunk.css",
+    "main.css": "/mediCenter-ReactJS/static/css/main.1d334cab.chunk.css",
     "main.js": "/mediCenter-ReactJS/static/js/main.4121a559.chunk.js",
     "main.js.map": "/mediCenter-ReactJS/static/js/main.4121a559.chunk.js.map",
     "runtime-main.js": "/mediCenter-ReactJS/static/js/runtime-main.708f2883.js",
@@ -8,9 +8,9 @@
     "static/js/2.0c2ab6f2.chunk.js": "/mediCenter-ReactJS/static/js/2.0c2ab6f2.chunk.js",
     "static/js/2.0c2ab6f2.chunk.js.map": "/mediCenter-ReactJS/static/js/2.0c2ab6f2.chunk.js.map",
     "index.html": "/mediCenter-ReactJS/index.html",
-    "precache-manifest.29edaeef33913377410feab75d558ffa.js": "/mediCenter-ReactJS/precache-manifest.29edaeef33913377410feab75d558ffa.js",
+    "precache-manifest.86bbada06ef5c369c17002219a9dd2cc.js": "/mediCenter-ReactJS/precache-manifest.86bbada06ef5c369c17002219a9dd2cc.js",
     "service-worker.js": "/mediCenter-ReactJS/service-worker.js",
-    "static/css/main.6105e34b.chunk.css.map": "/mediCenter-ReactJS/static/css/main.6105e34b.chunk.css.map",
+    "static/css/main.1d334cab.chunk.css.map": "/mediCenter-ReactJS/static/css/main.1d334cab.chunk.css.map",
     "static/js/2.0c2ab6f2.chunk.js.LICENSE.txt": "/mediCenter-ReactJS/static/js/2.0c2ab6f2.chunk.js.LICENSE.txt",
     "static/media/dr.jpg": "/mediCenter-ReactJS/static/media/dr.f986a302.jpg",
     "static/media/styles.css": "/mediCenter-ReactJS/static/media/img1.e6d64f35.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.708f2883.js",
     "static/js/2.0c2ab6f2.chunk.js",
-    "static/css/main.6105e34b.chunk.css",
+    "static/css/main.1d334cab.chunk.css",
     "static/js/main.4121a559.chunk.js"
   ]
 }
