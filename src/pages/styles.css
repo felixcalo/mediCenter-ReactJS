@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Work+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Roboto:wght@300;400;500&family=Work+Sans:wght@300&display=swap");
+:root {
+  --bg-color-1: #39aae1;
+  --bg-color-2: #0079c7;
+  --bg-color-3: #2b4c99;
+  --color-content: #b6bba9;
+  --color-white: #ffff;
+  --color-black: #0000;
+  --width-content: 1230px;
+  --color-gris: #c1c1c1;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.app--container {
+  width: inherit;
+  display: flex;
+  /* height: 99999px; */
+  justify-content: center;
+  background: #f8f8f8f8;
+}
+
+.app--box {
+  display: flex;
+  max-width: var(--width-content);
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.app--box--content {
+  flex: 2;
+}
+
+.app--box--aside--content {
+  flex: 1;
+}
+
+.app--box--content-all-article {
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 0.8s;
+}
+.app--box--content-each-article {
+  flex: 1;
+  min-width: 300px;
+  /* margin-right: 5px; */
+}
+.widget-title {
+  margin-bottom: 20px;
+}
+
+.widget-title-text {
+  padding-top: 50px;
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.widget-title-bar {
+  height: 2px;
+  width: 65px;
+  margin-top: 5px;
+  background: var(--bg-color-1);
+}
+
+@media (max-width: 767px) {
+  /* * {
+    box-sizing: border-box;
+  } */
+  .app--box--content {
+    min-width: 300px;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .app--box--aside--content {
+    box-sizing: border-box;
+    /* padding: 10px; */
+  }
+  .app--box--content-each-article {
+    flex: 1;
+    min-width: 200px;
+  }
+}
+@media (width: 768px) {
+  .app--box--content {
+    min-width: 320px;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .app--box--aside--content {
+    box-sizing: border-box;
+    /* padding: 10px; */
+  }
+  .app--box--content-each-article {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 10px;
+  }
+}
+
+/* @media (min-width: 785px) {
+  .app--box--content {
+    min-width: 320px;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .app--box--content-each-article {
+    flex: 1;
+    min-width: 365px;
+    /* margin-right: 5px; 
+  }
+} */
+@media (min-width: 785px) and (max-width: 1024px) {
+  .app--box--content {
+    min-width: 320px;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .app--box--content-each-article {
+    flex: 1;
+    min-width: 265px;
+    /* margin-right: 5px; */
+  }
+}

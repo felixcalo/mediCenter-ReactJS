@@ -1,0 +1,250 @@
+@import url("style-mob.css");
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  background: var(--color-white);
+  transition: all 0.4s;
+  z-index: 999;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  /* box-shadow: 0px 0px 20px #727272; */
+}
+
+.menu--up {
+  margin-top: -54px;
+  /* background: var(--color-white); */
+}
+
+.box-menu--top {
+  width: 100vw;
+  display: flex;
+  background: #f8f8f8;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu--top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: var(--width-content);
+  width: 100%;
+  min-height: 50px;
+  /* background: #f8f8f8; */
+}
+
+.menu--top-content {
+  width: 1255px;
+  display: flex;
+  align-items: center;
+}
+
+.menu--top-content a {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  font: 13px arial;
+  color: #a2a2a2;
+  text-decoration: none;
+}
+
+.menu--top-content a span {
+  margin-left: 5px;
+}
+
+.menu--top-content .email:hover, .menu--top-content .telephone:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.menu--container-down, .menu--container {
+  max-width: var(--width-content);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: var(--color-white);
+  align-items: center;
+}
+
+.menu--container {
+  height: 124px;
+  transition: all 0.4s;
+}
+
+.menu--container-down {
+  height: 70px;
+}
+
+.menu--box, .menu--box--down {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  background: var(--color-white);
+  justify-content: center;
+}
+
+.menu--box {
+  box-shadow: 0px 2px 5px -2px #a2a2a2;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+/* .logo span {
+  font-size: 26px;
+  color: #000;
+  font-family: arial;
+} */
+
+.logo img {
+  margin-right: 20px;
+}
+
+.menu ul, .menu li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  margin: 3px;
+}
+
+.menu a {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+  color: #727272;
+  font: 14px Arial, Helvetica, sans-serif;
+}
+
+.menu a span {
+  margin-right: 5px;
+}
+
+.menu .active {
+  background: var(--bg-color-1);
+  color: var(--color-white);
+}
+
+.menu .active a, .menu a:hover {
+  background: var(--bg-color-1);
+  color: var(--color-white);
+}
+
+.menu--sandwich, .menu--sandwich-close {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  nav.menu, nav.menu--down {
+    position: absolute;
+    z-index: 99;
+    height: calc(100vh - 150px);
+    width: 70vw;
+    right: 0;
+    background: rgba(248, 248, 248, 0.9);
+    display: none;
+  }
+  .menu ul, .menu--down ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu li, .menu--down li {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .menu .active, .menu--down.active, .menu a:hover, .menu li:hover, .menu--down a:hover, .menu--down li:hover {
+    background: none;
+    color: var(--bg-color-1);
+  }
+  .menu {
+    top: 120px;
+    background: black;
+  }
+  .menu--down {
+    top: 174px;
+  }
+  .menu--sandwich {
+    display: block;
+  }
+  .menu--box, .menu--box--down {
+    max-width: 100%;
+    width: 100%;
+  }
+  .menu--container, .menu--container-down {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .menu--top, .menu--top-content {
+    flex-wrap: wrap;
+  }
+  .menu--up {
+    margin-top: -55px;
+    /* background: var(--color-white); */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .menu--container-down, .menu--container {
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+  .logo {
+    margin-right: 0px;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+  }
+  .menu--container-down {
+    height: 124px;
+  }
+  .menu a, .menu--down a {
+    padding: 12px 3px 11px 8px;
+    color: #727272;
+    font: 12px 'Open Sans', 'arial', sans-serif;
+  }
+  .menu li, .menu--down li {
+    border: 1px solid #FFF
+  }
+}
+
+@media (width: 1024px) {
+  .menu--container-down, .menu--container {
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+  .logo {
+    margin-right: 0px;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+  }
+  .menu--container-down {
+    height: 124px;
+  }
+  .menu a, .menu--down a {
+    padding: 12px;
+    color: #727272;
+    font: 15px 'Open Sans', 'arial', sans-serif;
+  }
+  .menu li, .menu--down li {
+    border: 1px solid #FFF
+  }
+}

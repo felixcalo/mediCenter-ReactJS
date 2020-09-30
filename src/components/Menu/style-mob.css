@@ -1,0 +1,44 @@
+.menu--down ul,
+.menu--down li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu--down ul {
+  display: flex;
+}
+
+.menu--down li {
+  display: flex;
+  align-items: center;
+  margin: 3px;
+}
+
+.menu--down a {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+  color: #727272;
+  font: 14px Arial, Helvetica, sans-serif;
+}
+
+.menu--down a span {
+  margin-right: 5px;
+}
+
+.menu--down .active {
+  background: var(--bg-color-1);
+  color: var(--color-white);
+}
+
+.menu--down .active a,
+.menu--down a:hover {
+  background: var(--bg-color-1);
+  color: var(--color-white);
+}
+.menu--down--sandwich {
+  display: none;
+}

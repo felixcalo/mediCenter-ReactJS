@@ -1,0 +1,218 @@
+.footer--container {
+  display: flex;
+  justify-content: center;
+  background: #2e3033;
+}
+
+.footer--content {
+  width: var(--width-content);
+  flex-direction: column;
+  min-height: 550px;
+}
+
+.footer--content--options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer--content--options-opt1,
+.footer--content--options-opt2,
+.footer--content--options-opt3 {
+  flex: 1;
+  height: 120px;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  min-width: 300px;
+  padding: 30px;
+}
+
+.footer--content--options-opt1 {
+  background-color: var(--bg-color-1);
+}
+
+.footer--content--options-opt2 {
+  background-color: var(--bg-color-2);
+}
+
+.footer--content--options-opt3 {
+  background-color: var(--bg-color-3);
+}
+
+.footer--content--opts-infos {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-white);
+  padding: 25px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.footer--content--opts-infos-2 {
+  font-size: 25px;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 10px;
+  transition: all 0.2s;
+}
+
+.footer--content--opts-infos-2:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.footer--content--links {
+  flex: 2;
+  display: flex;
+  color: var(--color-white) !important;
+  flex-wrap: wrap;
+}
+
+.footer--content--links-column1,
+.footer--content--links-column2,
+.footer--content--links-column3,
+.footer--content--links-column4 {
+  flex: 1;
+  margin-right: 10px;
+}
+.footer--content--links-column2 {
+  display: flex;
+  flex-direction: column;
+}
+.footer--content--links-column2 ul {
+  list-style: none;
+  padding: 0px;
+  flex: 1;
+}
+.footer--content--links-column2-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer--content--links-column2-ul li {
+  list-style: none;
+  cursor: pointer;
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 32px;
+  transition: ease 0.4s;
+  transform: scaleY(1);
+}
+.footer--content--links-column2 li::before {
+  content: " > ";
+  margin-right: 5px;
+}
+
+.footer--content--abouts-us {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  line-height: 30px;
+}
+
+.footer--content--abouts-us-infos {
+  margin-left: 15px;
+}
+
+.footer--content--links-column1-description {
+  margin-top: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.iconSize {
+  width: 45px;
+  height: 45px;
+}
+
+.greys {
+  color: var(--color-content);
+}
+
+.footer-last-post-pt1 {
+  font-family: arial, sans-serif;
+  margin-top: 30px;
+  line-height: 25px;
+}
+.footer-last-post-title {
+  text-overflow: ellipsis;
+  width: 250px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  direction: ltr;
+  font-size: 15px;
+}
+.footer-last-post-date {
+  font-size: 12px;
+}
+
+.footer-last-tweet-pt1 {
+  font-family: arial, sans-serif;
+  margin-top: 30px;
+  line-height: 25px;
+}
+.footer-last-tweet-description {
+  text-overflow: ellipsis;
+  width: 250px;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  direction: ltr;
+  font-size: 15px;
+}
+.footer-last-tweet-link a {
+  font-size: 12px;
+  text-decoration: underline;
+  color: grey;
+}
+
+@media (max-width: 768px) {
+  .footer--content {
+    background: #2e3033;
+    width: 100%;
+  }
+  .footer--content--links-column1,
+  .footer--content--links-column2,
+  .footer--content--links-column3,
+  .footer--content--links-column4 {
+    box-sizing: border-box;
+    min-width: 250px;
+    padding: 10px;
+  }
+
+  .footer--content--options-opt1,
+  .footer--content--options-opt2,
+  .footer--content--options-opt3 {
+    justify-content: center;
+    min-width: 220px;
+    font: 16px;
+  }
+
+  .footer--content--opts-infos-1,
+  .footer--content--opts-infos-2 {
+    font-size: 16px;
+  }
+  .iconSize {
+    width: 35px;
+    height: 35px;
+  }
+  .footer--content--options {
+    margin: 0px 10px;
+  }
+}
+@media (min-width: 785px) and (max-width: 1024px) {
+  .footer--content--links-column1,
+  .footer--content--links-column2,
+  .footer--content--links-column3,
+  .footer--content--links-column4 {
+    box-sizing: border-box;
+    max-width: 250px;
+    padding: 10px;
+  }
+  .footer--content--options {
+    margin: 0px 10px;
+  }
+}
